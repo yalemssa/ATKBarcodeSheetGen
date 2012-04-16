@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package edu.yale.mss.xml;
+package edu.yale.mssa.xml;
 
 import java.io.BufferedOutputStream;
 import java.io.File;

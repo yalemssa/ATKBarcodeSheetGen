@@ -4,7 +4,7 @@
  */
 package edu.yale.mssa.atk;
 
-import edu.yale.mss.xml.XmlGen;
+import edu.yale.mssa.xml.XmlGen;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;

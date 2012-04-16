@@ -1,4 +1,4 @@
-package edu.yale.mss.xml;
+package edu.yale.mssa.xml;
 
 import java.io.BufferedOutputStream;
 import java.io.File;
