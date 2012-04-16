@@ -31,10 +31,6 @@ public class GetBarcodes {
         createXml();
     }
     
-    public static void main(String[] args) throws ClassNotFoundException, SQLException, IOException{
-        GetBarcodes g = new GetBarcodes(1222577L);
-    }
-
     private void initdb() throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.jdbc.Driver");
         c = DriverManager.getConnection(defaultProps.getProperty("db_url"), defaultProps.getProperty("db_user"), defaultProps.getProperty("db_pass"));
@@ -86,5 +82,9 @@ public class GetBarcodes {
         defaultProps = new Properties();
         FileInputStream fis = new FileInputStream("barcodeGen.properties");
         defaultProps.load(fis);
+    }
+    
+    public static void main(String[] args) throws ClassNotFoundException, SQLException, IOException{
+        GetBarcodes g = new GetBarcodes(1222577L);
     }
 }
