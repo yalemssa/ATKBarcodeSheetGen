@@ -1,0 +1,6 @@
+This project consists of a number of small parts that are not yet connected. The workflow will consists of the following steps:
+
+1. a user selecting either a collection or series from the ATK
+2. xml is generated from the ATK containing box numbers and barcodes (grouped by series)
+3. xml-fo is generated from the xml using the Barcode4J library
+4. a pdf is generated from the xml-fo
