@@ -80,7 +80,7 @@ public class GetBarcodes {
 
     private void loadProps() throws FileNotFoundException, IOException {
         defaultProps = new Properties();
-        FileInputStream fis = new FileInputStream("barcodeGen.properties");
+        FileInputStream fis = new FileInputStream("YULbarcodeGen.properties");
         defaultProps.load(fis);
     }
     
